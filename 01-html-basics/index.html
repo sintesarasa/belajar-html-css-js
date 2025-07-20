@@ -1,57 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar HTML - Project Pertama</title>
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Selamat Datang di Journey Web Development Saya!</h1>
-        <nav>
-            <ul>
-                <l1><a href="#about">Tentang Saya</a></l1>
-                <l1><a href="#skills">Kemampuan</a></l1>
-                <l1><a href="#projects">Proyek</a></l1>
-                <l1><a href="#contact">Kontak</a></l1>
-            </ul>
-        </nav>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar HTML - Project Pertama</title>
+	</head>
+	<body>
+		<!-- Header Section -->
+		<header>
+			<h1>Selamat Datang di Journey Web Development Saya!</h1>
+			<nav>
+				<ul>
+					<l1><a href="#about">Tentang Saya</a></l1>
+					<l1><a href="#skills">Kemampuan</a></l1>
+					<l1><a href="#projects">Proyek</a></l1>
+					<l1><a href="#contact">Kontak</a></l1>
+				</ul>
+			</nav>
+		</header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- About Section -->
-         <section id="about">
-            <h2>Tentang Saya</h2>
-            <img src="https://via.placeholder.com/150" alt="Foto Saya" width="200" height="200">
-            <p>Halo! Saya sedang belajar menjadi <strong>Front-End Developer</strong> ini adalah project <em>pertama</em> saya dalam belajar <mark>HTML, CSS dan JavaScript</mark></p>
-            <p>
-                Tujuan saya adalah menguasai <strong>React.js</strong> dan membuat aplikasi yang menarik dan fungsional.
-            </p>
-         </section>
+		<!-- Main Content -->
+		<main>
+			<!-- About Section -->
+			<section id="about">
+				<h2>Tentang Saya</h2>
+				<img
+					src="https://via.placeholder.com/150"
+					alt="Foto Saya"
+					width="200"
+					height="200"
+				/>
+				<p>
+					Halo! Saya sedang belajar menjadi
+					<strong>Front-End Developer</strong> ini adalah project
+					<em>pertama</em> saya dalam belajar
+					<mark>HTML, CSS dan JavaScript</mark>
+				</p>
+				<p>
+					Tujuan saya adalah menguasai <strong>React.js</strong> dan
+					membuat aplikasi yang menarik dan fungsional.
+				</p>
+			</section>
 
-         <!-- Skills Section -->
-          <section id="skills">
-            <h2>Skills yang sedang dipelajari</h2>
-            <h3>Front-End Technologies:</h3>
-            <ul>
-                <li>HTML 5 - Semantic markup</li>
-                <li>CSS3 - Styling and Layouting</li>
-                <li>JavaScript - Programming logic</li>
-                <li>React.js - Component-based framework</li>
-            </ul>
-            <h3>Tools & Workflow</h3>
-            <ol>
-                <li>VS Code - Code Editor</li>
-                <li>Git & Github - Version Control</li>
-                <li>Chrome Devtools - Debugging</li>
-                <li>NPM - Package management</li>
-            </ol>
+			<!-- Skills Section -->
+			<section id="skills">
+				<h2>Skills yang sedang dipelajari</h2>
+				<h3>Front-End Technologies:</h3>
+				<ul>
+					<li>HTML 5 - Semantic markup</li>
+					<li>CSS3 - Styling and Layouting</li>
+					<li>JavaScript - Programming logic</li>
+					<li>React.js - Component-based framework</li>
+				</ul>
+				<h3>Tools & Workflow</h3>
+				<ol>
+					<li>VS Code - Code Editor</li>
+					<li>Git & Github - Version Control</li>
+					<li>Chrome Devtools - Debugging</li>
+					<li>NPM - Package management</li>
+				</ol>
+			</section>
 
-          </section>
-    </main>
+			<!-- Project Sections -->
+			<section id="projects">
+				<h2>Projects</h2>
+				<article>
+					<h3>Project 1: HTML Basics</h3>
+					<p>Membuat halaman web pertama dengan HTML semantik.</p>
+					<p>
+						<small
+							>Status: <strong>Sedang Dikerjakan</strong></small
+						>
+					</p>
+				</article>
 
+				<article>
+					<h3>Project 2: CSS Styling</h3>
+					<p>Menambahkan styling dan layout responsive.</p>
+					<p>
+						<small>Status: <strong>Coming soon</strong></small>
+					</p>
+				</article>
+			</section>
 
-</body>
+			<!-- Contact Form -->
+			<section id="contact">
+				<h2>Hubungi Saya</h2>
+				<form>
+					<div>
+						<label for="nama">Nama</label>
+						<input
+							type="text"
+							name="nama"
+							id="nama"
+							placeholder="Masukkan nama Anda"
+							required
+						/>
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Masukkan email Anda"
+							required
+						/>
+					</div>
+					<div>
+						<input type="submit" value="Kirim Pesan" />
+						<input type="reset" value="Reset Form" />
+					</div>
+				</form>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer>
+			<p>&copy; 2024 - Journey Belajar Web Development</p>
+			<p>
+				<a href="https://github.com" target="_blank" rel="noopener">Github</a>
+				<a href="https://linkedin.com" target="_blank"rel="noopener">LinkedIn</a>
+				<a href="https://instagram.com" target="_blank"rel="noopener">Instagram</a>
+			</p>
+		</footer>
+	</body>
 </html>
